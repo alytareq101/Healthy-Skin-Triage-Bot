@@ -1,0 +1,44 @@
+# TensorFlow for CNN
+tensorflow>=2.14.0,<2.16.0
+
+# Data processing
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<2.2.0
+
+# Image processing
+opencv-python>=4.8.0
+tqdm>=4.66.0
+
+# Visualization
+matplotlib>=3.8.0,<3.9.0
+seaborn>=0.13.0
+
+# Machine Learning / Utilities
+scikit-learn>=1.3.0,<1.4.0
+
+# FastAPI backend
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+
+# RAG / LangChain
+langchain>=0.1.0
+langchain-community>=0.0.13
+
+# OpenAI embeddings for RAG
+openai>=1.3.0
+faiss-cpu>=1.7.4
+
+# PDF loader
+PyPDF2>=3.0.0
+
+# Streamlit frontend
+streamlit>=1.28.0
+requests>=2.31.0
+
+# Optional: for colored output or nice logging
+rich>=13.7.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-multipart>=0.0.6
